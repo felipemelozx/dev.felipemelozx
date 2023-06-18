@@ -5,7 +5,7 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: Poppins;
+    font-family: poppins;
 }
 
 body{
@@ -13,8 +13,12 @@ body{
     width: 100vw;
     background-color: #1E1E1E;
 }
+main{
+    display: flex;
+}
 #header{
     display: flex;
+    flex-direction: row;
 }
 section#header img{
     border-radius: 50%;
@@ -29,15 +33,33 @@ section#header img{
     font-style: Bolder;
     font-size: 36px; 
     padding-top: 138px;
-    position: relative;
-    
 }
 #header p {
     color: #B3B3B3;
     font-style: regular;
     font-size: 30px;
-    padding-top: 197px;
-    position: relative;
-    justify-content: start;
 
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+section#xp{
+    font-weight: 500;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 60px;
+    color: #ffffffef;
+}
+section#xp h2{
+    padding: 40px 0px;
+}
+#xp p {
+    font-weight: 300;
+    font-size: 24px;
+    font-style: normal;
+}
+#info{
+        display: flex;
+        justify-content: flex-end;
 }
