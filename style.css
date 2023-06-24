@@ -114,6 +114,7 @@ section#xp h2 {
     font-weight: 300;
     gap: 19px;
 }
+
 #info {
     display: flex;
     padding-top: 90px;
@@ -202,7 +203,7 @@ section#xp h2 {
     justify-content: center;
 }
 
-button {
+.button {
     display: flex;
     width: 325px;
     height: 55px;
@@ -215,7 +216,7 @@ button {
     font-size: 20px;
     font-weight: 600;
     gap: 19px;
-
+    text-decoration: none;
 }
 
 li:hover {
