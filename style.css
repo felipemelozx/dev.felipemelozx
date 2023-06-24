@@ -78,43 +78,33 @@ section#xp h2 {
     color: #B3B3B3;
 }
 
-#buttons {
+#ex-bar-1 {
     padding: 36px 0 36px 60px;
     display: flex;
-    flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
 }
 
-#buttons img {
-    display: flex;
+#ex-bar-1 img {
     width: 36px;
     height: 34px;
-    margin-bottom: 16px;
+    margin-bottom: 16px ;
 }
 
-#buttons p {
-    flex-direction: column;
-    text-align: center;
+#ex-bar {
+    margin-bottom: 30px;
     font-size: 12px;
     font-family: Poppins;
     font-weight: 300;
-    justify-content: center;
-}
-
-#buttons p {
-    display: flex;
-    width: 226px;
+    text-align: center;
+    width: 299px;
     height: 28px;
-    align-items: center;
-    justify-content: center;
     background-image: linear-gradient(90deg, #777CF4 0%, #F47777 100%);
     border-radius: 24px;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
-    gap: 19px;
 }
-
 #info {
     display: flex;
     padding-top: 90px;
