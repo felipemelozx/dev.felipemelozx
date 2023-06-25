@@ -18,6 +18,8 @@ body {
 
 main {
     display: flex;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main #infos {
@@ -180,7 +182,7 @@ section#xp h2 {
 }
 
 #contatos {
-    padding-top: 92px;
+    padding-top: 40px;
 }
 
 #contatos ul {
@@ -207,7 +209,7 @@ section#xp h2 {
     height: 55px;
     align-items: center;
     justify-content: center;
-    margin: 32px 60px 89px 0;
+    margin: 32px 60px 30px 0;
     background-image: linear-gradient(90deg, #777CF4 0%, #F47777 100%);
     border-radius: 24px;
     color: white;
