@@ -1,8 +1,19 @@
 @media (max-width:680px) {
-    main{
+    body html {
+        margin: 0px;
+        padding: 0px;
+       overflow-x: hidden;
+    }
+    #main{
+        width: auto; 
+        
+    }
+    main {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        overflow-x: hidden;
+        width: 100%;
+
     }
 
     #header {
@@ -22,9 +33,102 @@
 
     section#header img {
         border-radius: 24px;
+        margin: 0px;
         width: 325px;
         height: 277px;
-        margin: 24px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #xp{
+        padding: 0px 0px 0px 0px ;
+    }
+    #xp h2 {
+        margin-top: 24px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+
     }
 
+    #xp p {
+        display: flex;
+        width: 319px;
+        height: 82px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+   #ex-bar-1{
+    width: 400px;
+    
+   }
+   #info{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    text-align: center;
+
+   }
+   #info div p {
+    margin: 0px;
+   }
+    #linguas {
+
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+    }
+    #linguas h2 {
+        width: 130px;
+        height: 24px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #linguas p {
+        width: 257px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #educacao {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #educacao h2 {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    #educacao p {
+        width: 262px;
+        height: auto;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .button {
+        margin-right: 0px;
+        width: 300px ;
+    }
+
+    #contatos {
+        
+
+    }
 }
