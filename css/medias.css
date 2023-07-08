@@ -42,6 +42,11 @@
     }
     #xp{
         padding: 0px 0px 0px 0px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     #xp h2 {
         margin-top: 24px;
@@ -63,7 +68,7 @@
     }
 
    #ex-bar-1{
-    width: 400px;
+    width: auto;
     
    }
    #info{
